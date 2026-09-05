@@ -131,8 +131,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hero-sub { margin-top: 16px; font-size: 16.5px; color: #33505E; max-width: 54ch; font-weight: 500; }
 .hero-cta-row { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin-top: 24px; }
 .hero-price-under { font-weight: 700; font-size: 14.5px; color: var(--blue); margin-left: 4px; }
-.hero-product { margin: 0; background: linear-gradient(120deg, #9FD0D5, #CFE468); }
-.hero-product img { width: 100%; display: block; }
+.hero-product { margin: 0; }
+.hero-product img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; border-radius: 18px; box-shadow: 0 24px 48px -20px rgba(14,62,89,.4); border: 6px solid #fff; }
 .hero-strip { text-align: center; font-size: 13px; font-weight: 600; color: var(--ink-soft); padding: 13px 0; border-bottom: 1px solid var(--gray-line); }
 
 /* ── sections ────────────────────────────────────────── */
